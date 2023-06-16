@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Projekt zaliczeniowy walidator</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><span style="font-family: Verdana">Formularz rejestracyjny</span></h1>
+    </header>
+
+    <main>
+        <form onsubmit="return validateForm()">
+            <label for="username"><span style="font-family: Arial">Nazwa użytkownika:</span></label>
+            <input type="text" id="username" required placeholder="podaj nazwę użytkownika">
+          
+            <label for="password"><span style="font-family: Arial">Hasło:</span></label>
+            <input type="password" id="password" required placeholder="podaj hasło">
+          
+            <label for="confirmPassword"><span style="font-family: Arial">Potwierdź hasło:</span></label>
+            <input type="password" id="confirmPassword" required placeholder="powtórz hasło">
+          
+            <label for="email"><span style="font-family: Arial">Adres e-mail:</span></label>
+            <input type="email" id="email" required placeholder="podaj adres e-mail">
+          
+            <button type="submit"><span style="font-family: Arial">Zarejestruj</span></button>
+            <button type="reset"><span style="font-family: Arial">Wyczyść formularz</span></button>
+          </form>          
+    </main>
+
+    <footer>
+        <p><span style="font-family: Arial">Projekt zaliczeniowy Zaawansowane technologie internetowe 2023</span></p>
+    </footer>
+    
+</body>
+</html>
